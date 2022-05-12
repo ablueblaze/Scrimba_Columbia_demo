@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #006866;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero {
+    background-image: url('./Columbia_demo/downtown-columbia-mobile-jpg.ashx.jpeg');
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0 0 5px black;
+}
+
+.hero-text {
+    padding: 5px 20px;
+    background-color: #ff1605e6;
+    border-radius: 5px;
+}
+
+.hero-title {
+    margin-bottom: 30px;
+}
+
+#activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3e6990;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.activity-title {
+    margin: 15px 0;
+}
+
+.activity-par {
+    width: 250px;
+}
+
+#footer {
+    background-color: #381d2a;
+}
+
+#card {
+    height: 250px;
+    width: 450px;
+    background-color: #61abf1;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid #ff1605e6;
+    border-radius: 5px;
+}
+
+#card-img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#card-text {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
